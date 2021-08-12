@@ -1,0 +1,24 @@
+{
+  "name": "mqtt-influxdb",
+  "version": "1.0.0",
+  "description": "* Install node modules | $ npm install\r * Create .env and fill up the credentials\r * Run the app | $ node app.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intheloop-iot/mqtt-influxdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intheloop-iot/mqtt-influxdb/issues"
+  },
+  "homepage": "https://github.com/intheloop-iot/mqtt-influxdb#readme",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.10.0",
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.2.8"
+  }
+}
